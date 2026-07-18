@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Health Tracking — মাতৃNest</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a href="index.html" class="brand">
+      <svg class="nestmark" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" fill="#F4DFE2"/>
+        <path d="M8 28c4-10 28-10 32 0" stroke="#C2566B" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M12 22c3.5-7 20.5-7 24 0" stroke="#C2566B" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.55"/>
+        <circle cx="24" cy="17" r="4.4" fill="#C2566B"/>
+        <circle cx="24" cy="17" r="1.7" fill="#FBF4EC"/>
+      </svg>
+      <span class="brand-name">মাতৃNest</span>
+    </a>
+    <nav class="main-nav">
+      <a href="home.html" class="">Home</a>
+      <a href="about.html" class="">About</a>
+      <a href="medicines.html" class="">Medicines</a>
+      <a href="appoint.html" class="">Appointments</a>
+      <a href="health.html" class="active">Health</a>
+      <a href="help.html" class="">Help</a>
+      
+      <a href="profile.html" class="pill-outline">👤 nisa</a>
+      <a href="index.html" class="nav-logout">Log out</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-head">
+  <div class="wrap"><span class="eyebrow">Health tracking</span><h1>Keep an eye on the numbers that matter</h1><p>Log your weight, blood pressure, glucose and symptoms — we'll keep your last 10 entries handy.</p></div>
+</section>
+<section class="section" style="padding-top:24px;">
+  <div class="wrap" style="display:flex; gap:48px; align-items:flex-start; flex-wrap:wrap;">
+    <div class="form-shell wide" style="margin:0; flex:1; min-width:320px;">
+      <h2 style="font-size:1.35rem;">New entry</h2>
+      <p class="sub">A minute today saves questions later.</p>
+      <form>
+        <div class="field"><label>Date</label><input type="date"></div>
+        <div class="field"><label>Weight (kg)</label><input type="number" placeholder="e.g. 65.5"></div>
+        <div class="field"><label>Blood pressure</label><input type="text" placeholder="e.g. 120/80"></div>
+        <div class="field"><label>Glucose (mg/dL)</label><input type="number" placeholder="mg/dL"></div>
+        <div class="field"><label>Symptoms</label><textarea placeholder="Any symptoms..."></textarea></div>
+        <button type="submit" class="btn btn-primary btn-block">Save entry</button>
+      </form>
+    </div>
+    <div style="flex:1.1; min-width:300px;">
+      <h3 style="font-size:1.1rem; margin-bottom:16px;">Recent entries</h3>
+      <div class="card" style="margin-bottom:14px;">
+        <div style="display:flex; justify-content:space-between;"><strong>2026-06-28</strong><span class="tag-pill">64.2 kg</span></div>
+        <div style="display:flex; gap:18px; margin-top:10px; font-size:0.88rem; color:var(--ink-soft);"><span>BP: <strong style="color:var(--ink);">118/76</strong></span><span>Glucose: <strong style="color:var(--ink);">94</strong></span></div>
+      </div>
+      <div class="card">
+        <div style="display:flex; justify-content:space-between;"><strong>2026-06-14</strong><span class="tag-pill">63.8 kg</span></div>
+        <div style="display:flex; gap:18px; margin-top:10px; font-size:0.88rem; color:var(--ink-soft);"><span>BP: <strong style="color:var(--ink);">120/80</strong></span><span>Glucose: <strong style="color:var(--ink);">90</strong></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <span class="brand-name" style="font-family:var(--font-display); font-weight:700; font-size:1.15rem;">মাতৃNest</span>
+      <p style="margin-top:4px;">The safe nest every mom and baby deserve.</p>
+    </div>
+    <div class="foot-links">
+      <a href="about.html">About</a>
+      <a href="help.html">Help</a>
+      <a href="medicines.html">Medicines</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
